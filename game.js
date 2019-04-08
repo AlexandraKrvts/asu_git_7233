@@ -775,8 +775,6 @@ Text = {
 
       var outline;
       if (glyph.cached_outline) {
-
-        
         outline = glyph.cached_outline;
       } else {
         outline = glyph.o.split(' ');
