@@ -777,8 +777,6 @@ Asteroid = function () {
 
   this.visible = true;
   this.scale = 6;
-
-  
   this.postMove = this.wrapPostMove;
 
   this.collidesWith = ["ship", "bullet", "bigalien", "alienbullet"];
@@ -907,8 +905,6 @@ Text = {
 
       var outline;
       if (glyph.cached_outline) {
-
-        
         outline = glyph.cached_outline;
       } else {
         outline = glyph.o.split(' ');
